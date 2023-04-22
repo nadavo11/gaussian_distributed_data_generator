@@ -15,7 +15,7 @@ You will also need to install the following dependencies:
 - Matplotlib
 
 You can install these dependencies using pip, the Python package installer. Simply run the following command in your terminal or command prompt:
-```
+```python
 pip install numpy matplotlib
 
 ```
@@ -26,5 +26,5 @@ To use the clustering algorithm, import the `visualize_3D_clusters` function fro
 
 ```python
 from clustering import visualize_3D_clusters
-
+```
 You can then generate a set of random 3D data points using the `generate_gaussian_cluster` function:
